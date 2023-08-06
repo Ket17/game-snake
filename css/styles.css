@@ -1,0 +1,150 @@
+body{
+font-family: 'Montserrat', sans-serif;
+background: #EFF5FF;
+}
+
+.my-name {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.main-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    box-sizing: border-box;
+}
+
+.about-me-container {
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0;
+}
+
+.game-container {
+    width: 440px;
+}
+
+.instructions-container {
+    width: 275px;
+}
+
+.logo {
+    margin-bottom: 60px;
+}
+
+.about-me-list {
+    padding-left: 14px;
+}
+
+.about-me-list-item {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.game-title {
+    color: #262630;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.game-area {
+    background: #D5E3FF;
+    width: 440px;
+    height: 440px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.game-canvas {
+    border: 1px solid #9EADF2);
+    background: #FFF;
+
+}
+
+.game-score {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.game-controls {
+    display: flex;
+    justify-content: center;
+
+}
+
+.game-start {
+    border-radius: 8px;
+    background: #FF6B0A;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.game-reset {
+    border-radius: 8px;
+    border: 1px solid #FF6B0A;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    color: #FF6B0A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #EFF5FF;
+    cursor: pointer;
+}
+
+.instructions-title {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin-top: 90px;
+}
+
+.instructions-list {
+    padding-left: 16px;
+}
+
+.instructions-list-item {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
